@@ -61,6 +61,7 @@ export const metadata = {
   other: {
     'geo.region': 'UG',
     'geo.placename': 'Uganda',
+    'google-site-verification': 'scitoK-hndjDaWtUH_dLkdB_3cb8y45gFd-JCh2b9oA',
     'format-detection': 'telephone=no, address=no, email=no',
   },
 };
