@@ -1,5 +1,6 @@
 import AfricaMap3D from './AfricaMap3D.jsx';
 import BackToTop from './BackToTop.jsx';
+import MobileMenu from './MobileMenu.jsx';
 
 const capabilities = [
   {
@@ -25,6 +26,13 @@ const pillars = [
   'Offline-aware systems for African operating conditions',
   'Elegant interfaces paired with operational rigor',
   'Infrastructure thinking, not one-off project delivery',
+];
+
+const navigation = [
+  { href: '#capabilities', label: 'Capabilities' },
+  { href: '#story', label: 'Story' },
+  { href: '#ecosystem', label: 'Ecosystem' },
+  { href: '#leadership', label: 'Leadership' },
 ];
 
 const ecosystem = [
@@ -73,16 +81,19 @@ export default function App() {
           </span>
         </a>
 
-        <nav className="topnav" aria-label="Primary">
-          <a href="#capabilities">Capabilities</a>
-          <a href="#story">Story</a>
-          <a href="#ecosystem">Ecosystem</a>
-          <a href="#leadership">Leadership</a>
+        <nav className="topnav topnav-desktop" aria-label="Primary">
+          {navigation.map((item) => (
+            <a key={item.href} href={item.href}>
+              {item.label}
+            </a>
+          ))}
         </nav>
 
-        <a className="button button-ghost" href="#contact">
+        <a className="button button-ghost topbar-cta" href="#contact">
           Start a Conversation
         </a>
+
+        <MobileMenu links={navigation} />
       </header>
 
       <main className="site-main">
