@@ -1,0 +1,43 @@
+<svg width="920" height="240" viewBox="0 0 920 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ring" x1="42" y1="40" x2="176" y2="188" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F6D17A"/>
+      <stop offset="0.55" stop-color="#F6BD4F"/>
+      <stop offset="1" stop-color="#B77A18"/>
+    </linearGradient>
+    <linearGradient id="circuit" x1="126" y1="98" x2="212" y2="170" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E8FBFF"/>
+      <stop offset="1" stop-color="#62D7FF"/>
+    </linearGradient>
+    <radialGradient id="pearl" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(94 124) rotate(90) scale(44)">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="0.45" stop-color="#E9F8FF"/>
+      <stop offset="1" stop-color="#9ADFFF"/>
+    </radialGradient>
+  </defs>
+
+  <g>
+    <circle cx="92" cy="124" r="74" stroke="url(#ring)" stroke-width="18" stroke-linecap="round" stroke-dasharray="310 105" transform="rotate(-34 92 124)"/>
+    <circle cx="92" cy="124" r="53" fill="url(#pearl)"/>
+    <circle cx="72" cy="105" r="7" fill="#FFFFFF" opacity="0.7"/>
+
+    <path d="M134 103H166" stroke="url(#circuit)" stroke-width="10" stroke-linecap="round"/>
+    <path d="M134 126H186" stroke="url(#circuit)" stroke-width="10" stroke-linecap="round"/>
+    <path d="M134 149H160" stroke="url(#circuit)" stroke-width="10" stroke-linecap="round"/>
+    <path d="M166 103V89H196" stroke="url(#circuit)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M160 149V170H188" stroke="url(#circuit)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <circle cx="204" cy="89" r="11" fill="#62D7FF"/>
+    <circle cx="194" cy="126" r="11" fill="#62D7FF"/>
+    <circle cx="196" cy="170" r="11" fill="#62D7FF"/>
+  </g>
+
+  <g transform="translate(258 70)">
+    <text x="0" y="48" fill="#F4F8FF" font-family="Segoe UI, Arial, sans-serif" font-size="68" font-weight="700" letter-spacing="-2">
+      PearlByte
+    </text>
+    <text x="2" y="92" fill="#9DB8D2" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="500" letter-spacing="4">
+      DIGITAL INFRASTRUCTURE FOR AFRICA
+    </text>
+  </g>
+</svg>

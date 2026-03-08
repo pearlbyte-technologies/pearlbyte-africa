@@ -1,4 +1,5 @@
 import AfricaMap3D from './AfricaMap3D.jsx';
+import BackToTop from './BackToTop.jsx';
 
 const capabilities = [
   {
@@ -64,7 +65,7 @@ export default function App() {
     <div className="site-shell">
       <header className="topbar">
         <a className="brand" href="#home" aria-label="PearlByte Technologies">
-          <span className="brand-mark">PB</span>
+          <img className="brand-logo" src="/pearlbyte-icon.svg" alt="" />
           <span className="brand-copy">
             <strong>PearlByte</strong>
             <small>PearlByte Technologies</small>
@@ -83,7 +84,7 @@ export default function App() {
         </a>
       </header>
 
-      <main>
+      <main className="site-main">
         <section className="hero" id="home">
           <div className="hero-map-background">
             <AfricaMap3D />
@@ -234,6 +235,7 @@ export default function App() {
           </div>
         </section>
       </main>
+      <BackToTop />
     </div>
   );
 }
