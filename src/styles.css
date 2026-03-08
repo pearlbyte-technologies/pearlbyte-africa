@@ -529,10 +529,15 @@ h2 {
 }
 
 @media (max-width: 820px) {
+  .site-shell {
+    padding-top: 9.5rem;
+  }
+
   .topbar {
     flex-wrap: wrap;
     justify-content: center;
     border-radius: 28px;
+    gap: 0.9rem;
   }
 
   .topnav {
@@ -549,7 +554,7 @@ h2 {
 
 @media (max-width: 640px) {
   .site-shell {
-    padding-top: 7rem;
+    padding-top: 11.5rem;
   }
 
   .topbar {
@@ -592,7 +597,8 @@ h2 {
     align-items: stretch;
   }
 
-  .button {
+  .hero-actions .button,
+  .cta-panel .button {
     width: 100%;
   }
 
