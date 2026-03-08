@@ -8,7 +8,7 @@ const capabilities = [
   },
   {
     title: 'Systems Integration',
-    body: 'PearlByte connects tools, data, payments, devices, and workflows so organisations stop operating in fragments and start working as a system.',
+    body: 'Pearlbyte connects tools, data, payments, devices, and workflows so organisations stop operating in fragments and start working as a system.',
   },
   {
     title: 'Hardware Deployment',
@@ -46,7 +46,7 @@ const directors = [
   {
     name: 'Emmanuel Columbus Mugenyi',
     role: 'Managing Director / Founder',
-    detail: 'Computer Scientist & Musician',
+    detail: 'Software Engineer | Technology Entrepreneur',
   },
   {
     name: 'Collin Tugume',
@@ -64,11 +64,11 @@ export default function App() {
   return (
     <div className="site-shell">
       <header className="topbar">
-        <a className="brand" href="#home" aria-label="PearlByte Technologies">
+        <a className="brand" href="#home" aria-label="Pearlbyte Technologies">
           <img className="brand-logo" src="/pearlbyte-icon.svg" alt="" />
           <span className="brand-copy">
-            <strong>PearlByte</strong>
-            <small>PearlByte Technologies</small>
+            <strong>Pearlbyte</strong>
+            <small>Pearlbyte Technologies Limited</small>
           </span>
         </a>
 
@@ -91,13 +91,13 @@ export default function App() {
           </div>
 
           <div className="hero-copy">
-            <div className="eyebrow">Digital Infrastructure for Africa</div>
+            <div className="eyebrow">Building intelligent systems for Africa</div>
             <h1>
               Building the systems, software, and digital touchpoints shaping
               Africa&apos;s next institutions.
             </h1>
             <p className="hero-text">
-              PearlByte Technologies is a technology services company engaged in
+              Pearlbyte Technologies is a technology services company engaged in
               software development, systems integration, hardware deployment,
               and digital transformation solutions for businesses and
               institutions.
@@ -107,7 +107,7 @@ export default function App() {
                 Explore Our Work
               </a>
               <a className="button button-secondary" href="#story">
-                Why PearlByte
+                Why Pearlbyte
               </a>
             </div>
             <div className="hero-meta">
@@ -122,7 +122,7 @@ export default function App() {
           <div className="glass-panel intro-panel">
             <p className="section-kicker">From the Pearl of Africa to the digital future</p>
             <p className="intro-text">
-              The name <strong>PearlByte</strong> is rooted in Uganda, long
+              The name <strong>Pearlbyte</strong> is rooted in Uganda, long
               known as the Pearl of Africa. <strong>Pearl</strong> carries the
               place where the company was built. <strong>Byte</strong> signals
               the digital systems, code, data, and infrastructure that now move
@@ -161,7 +161,7 @@ export default function App() {
             <h2>Technology should feel grounded, beautiful, and operationally useful.</h2>
             <p>
               That principle already runs through the ecosystem around
-              PearlByte: visitor infrastructure, AI-enabled knowledge tools,
+              Pearlbyte: visitor infrastructure, AI-enabled knowledge tools,
               and service systems built to work in demanding environments. We
               care about more than software delivery. We care about how a
               digital system lands in the real world.
@@ -183,7 +183,7 @@ export default function App() {
             <span className="section-kicker">Ecosystem</span>
             <h2>A parent company site with room for products, platforms, and delivery.</h2>
             <p>
-              PearlByte is not positioned as a single-product brand. It is the
+              Pearlbyte is not positioned as a single-product brand. It is the
               company layer above products and deployments, giving a coherent
               home to the infrastructure we build.
             </p>
@@ -219,10 +219,10 @@ export default function App() {
 
         <section className="section" id="contact">
           <div className="glass-panel cta-panel">
-            <span className="section-kicker">PearlByte Technologies</span>
+            <span className="section-kicker">Pearlbyte Technologies</span>
             <h2>Built in Uganda. Focused on Africa. Ready for serious digital work.</h2>
             <p>
-              PearlByte Technologies, incorporated as
+              Pearlbyte Technologies, incorporated as
               {' '}
               <strong>PEARLBYTE TECHNOLOGIES LIMITED</strong>
               {' '}

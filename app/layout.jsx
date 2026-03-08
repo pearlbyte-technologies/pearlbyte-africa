@@ -3,16 +3,16 @@ import '../src/styles.css';
 export const metadata = {
   metadataBase: new URL('https://pearlbyte.africa'),
   title: {
-    default: 'PearlByte Technologies | Digital Infrastructure for Africa',
-    template: '%s | PearlByte Technologies',
+    default: 'Pearlbyte | Intelligent Systems & Software for Africa',
+    template: '%s | Pearlbyte Technologies',
   },
   description:
-    'PearlByte Technologies builds digital infrastructure for Africa through software development, systems integration, hardware deployment, and digital transformation solutions.',
-  applicationName: 'PearlByte Technologies',
+    'Pearlbyte Technologies builds intelligent systems for Africa through software development, systems integration, hardware deployment, and digital transformation solutions.',
+  applicationName: 'Pearlbyte Technologies',
   keywords: [
-    'PearlByte Technologies',
-    'PearlByte Africa',
-    'Digital infrastructure for Africa',
+    'Pearlbyte Technologies',
+    'Pearlbyte Africa',
+    'Building intelligent systems for Africa',
     'Software development Uganda',
     'Systems integration Africa',
     'Hardware deployment Uganda',
@@ -20,9 +20,9 @@ export const metadata = {
     'Technology company Uganda',
     'PEARLBYTE TECHNOLOGIES LIMITED',
   ],
-  authors: [{ name: 'PearlByte Technologies' }],
-  creator: 'PearlByte Technologies',
-  publisher: 'PearlByte Technologies',
+  authors: [{ name: 'Pearlbyte Technologies' }],
+  creator: 'Pearlbyte Technologies',
+  publisher: 'Pearlbyte Technologies',
   alternates: {
     canonical: '/',
   },
@@ -46,17 +46,17 @@ export const metadata = {
   openGraph: {
     type: 'website',
     url: 'https://pearlbyte.africa',
-    siteName: 'PearlByte Technologies',
+    siteName: 'Pearlbyte Technologies',
     locale: 'en_UG',
-    title: 'PearlByte Technologies | Digital Infrastructure for Africa',
+    title: 'Pearlbyte | Intelligent Systems & Software for Africa',
     description:
-      'Built in Uganda, PearlByte Technologies delivers software development, systems integration, hardware deployment, and digital transformation solutions for African businesses and institutions.',
+      'Built in Uganda, Pearlbyte Technologies delivers intelligent systems for Africa through software development, systems integration, hardware deployment, and digital transformation solutions.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'PearlByte Technologies | Digital Infrastructure for Africa',
+    title: 'Pearlbyte | Intelligent Systems & Software for Africa',
     description:
-      'Built in Uganda, PearlByte Technologies delivers digital infrastructure for Africa.',
+      'Built in Uganda, Pearlbyte Technologies is building intelligent systems for Africa.',
   },
   other: {
     'geo.region': 'UG',

@@ -5,7 +5,7 @@ const structuredData = [
   {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    name: 'PearlByte Technologies',
+    name: 'Pearlbyte Technologies',
     legalName: 'PEARLBYTE TECHNOLOGIES LIMITED',
     url: 'https://pearlbyte.africa',
     email: 'hello@pearlbyte.africa',
@@ -15,7 +15,7 @@ const structuredData = [
       name: 'Republic of Uganda',
     },
     description:
-      'PearlByte Technologies is a technology services company engaged in software development, systems integration, hardware deployment, and digital transformation solutions for businesses and institutions.',
+      'Pearlbyte Technologies is a technology services company specializing in software development, systems integration, hardware deployment, and digital transformation solutions for businesses and institutions.',
     knowsAbout: [
       'Software development',
       'Systems integration',
@@ -44,29 +44,29 @@ const structuredData = [
   {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: 'PearlByte Technologies',
+    name: 'Pearlbyte Technologies',
     url: 'https://pearlbyte.africa',
-    description: 'Digital Infrastructure for Africa.',
+    description: 'Building intelligent systems for Africa.',
     publisher: {
       '@type': 'Organization',
-      name: 'PearlByte Technologies',
+      name: 'Pearlbyte Technologies',
     },
   },
   {
     '@context': 'https://schema.org',
     '@type': 'WebPage',
-    name: 'PearlByte Technologies | Digital Infrastructure for Africa',
+    name: 'Pearlbyte | Intelligent Systems & Software for Africa',
     url: 'https://pearlbyte.africa',
     description:
-      'PearlByte Technologies builds software, integrated systems, hardware-enabled touchpoints, and digital transformation solutions for Africa.',
+      'Pearlbyte Technologies builds intelligent systems for Africa through software, integrated systems, hardware-enabled touchpoints, and digital transformation solutions.',
     isPartOf: {
       '@type': 'WebSite',
-      name: 'PearlByte Technologies',
+      name: 'Pearlbyte Technologies',
       url: 'https://pearlbyte.africa',
     },
     about: {
       '@type': 'Organization',
-      name: 'PearlByte Technologies',
+      name: 'Pearlbyte Technologies',
     },
   },
 ];
