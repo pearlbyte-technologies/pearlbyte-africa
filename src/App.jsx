@@ -31,6 +31,7 @@ const ecosystem = [
   {
     name: 'KaribuOS',
     summary: 'Guest check-in, visitor management, queue handling, and reception infrastructure built for public-facing institutions.',
+    href: 'https://karibuos.com/',
   },
   {
     name: 'AI Knowledge Systems',
@@ -193,7 +194,19 @@ export default function App() {
             {ecosystem.map((item) => (
               <article className="ecosystem-row" key={item.name}>
                 <h3>{item.name}</h3>
-                <p>{item.summary}</p>
+                <div className="ecosystem-copy">
+                  <p>{item.summary}</p>
+                  {item.href ? (
+                    <a
+                      className="ecosystem-link"
+                      href={item.href}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Visit website
+                    </a>
+                  ) : null}
+                </div>
               </article>
             ))}
           </div>

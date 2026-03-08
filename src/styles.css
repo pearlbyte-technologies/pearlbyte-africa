@@ -423,6 +423,11 @@ h2 {
   gap: 1rem;
 }
 
+.ecosystem-copy {
+  display: grid;
+  gap: 0.8rem;
+}
+
 .ecosystem-row {
   display: grid;
   grid-template-columns: minmax(220px, 0.4fr) minmax(0, 1fr);
@@ -439,6 +444,19 @@ h2 {
 .ecosystem-row p,
 .leader-card p {
   margin: 0;
+}
+
+.ecosystem-link {
+  width: fit-content;
+  color: var(--gold);
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.ecosystem-link:hover {
+  color: #ffd27b;
 }
 
 .leadership-grid {
