@@ -1,3 +1,4 @@
+import Script from 'next/script';
 import '../src/styles.css';
 
 export const metadata = {
@@ -75,7 +76,15 @@ export const viewport = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        {children}
+        <Script
+          src="https://ask.yebomarket.com/widget.js"
+          data-assistant-id={process.env.NEXT_PUBLIC_ASKYEBO_ASSISTANT_ID}
+          data-api-base="https://api.yebomarket.com/api/v1"
+          strategy="afterInteractive"
+        />
+      </body>
     </html>
   );
 }
