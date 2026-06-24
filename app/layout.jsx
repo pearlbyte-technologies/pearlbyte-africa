@@ -80,7 +80,7 @@ export default function RootLayout({ children }) {
         {children}
         <Script
           src="https://ask.yebomarket.com/widget.js"
-          data-assistant-id={process.env.NEXT_PUBLIC_ASKYEBO_ASSISTANT_ID}
+          data-assistant-id="ae87be86-ee64-40b7-9fdf-d04c73d8270e"
           data-api-base="https://api.yebomarket.com/api/v1"
           strategy="afterInteractive"
         />
